@@ -1,0 +1,125 @@
+<!-- =================================================== DESCRIPTION =================================================================
+
+This HTML file displays a basic webpage for a restaurant. The page contains the restarant name as the main heading, three subheadings 
+with paragraphs and images for information about "Our Story", “Our Food” and “Our People”, and a drowpdown accordion style menu that
+displays menu contents when menu sections are hovered over.
+The HTML file links to the CSS stylesheet "restaurant_stylesheet.css", the JS script file "restaurant_script.js" and
+the jQuery library. 
+
+See the linked files for descriptions on styling and functionality of the program.
+
+==================================================================================================================================-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Perfect</title>
+    <!-- Links to CSS stylesheet. -->
+    <link rel="stylesheet" type="text/css" href="restaurant_stylesheet.css" />
+    <!--Links to jQuery. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+    <!-- Links to JS scripting file. -->
+    <script type='text/javascript' src="restaurant_script.js"></script> 
+</head>
+<body>
+    <div class="restaurantDescription">
+        <h1>Pizza Perfect</h1>
+        <h2 class="ourStory">Our Story</h2>
+            <p class="ourStory">
+                We are a family-run pizza restaurant with the best Japanese and Italian inspired pizza in town. 
+                After years of living in Japan and Italy, we decided to settle in sunny Cape Town and open our very own restaurant.
+            </p>
+            <img src="./images/cathal-mac-an-bheatha-CJAKsppS2co-unsplash.jpg" alt="A pizza oven with man cooking in background"></img>
+        <h2>Our Food</h2>
+            <p>
+                All of our ingredients are locally and ethically sourced. We make our own pizza dough using methods learned in Italy
+                and we make our own cheese using techniques learned in Japan. Our burrata is the best in town! 
+            </p>
+            <img src="./images/ivan-torres-MQUqbmszGGM-unsplash.jpg" alt="A pizza on wooden board with thyme and berry decoration"></img>
+        <h2>Our People</h2>
+            <p>
+                As a family-run business we prioritise community. 
+                Our team is passionate, skilled and ready to serve you your favourite pizza.
+            </p>
+            <img 
+                src="./images/petr-sevcovic-e5Q5vWO55uU-unsplash.jpg" 
+                alt="A waiter smiling and holding a plate of food"
+                id="fadingImage">
+            </img>
+            <br>
+            <button class="fadeOutButton">Double click to fade out image</button>
+            <button class="fadeInButton">Double click to fade in image</button>
+            <button class="stopFadingButton">Double click to stop fading</button>
+            <hr>
+    </div>
+
+    <div class="menuContainer">
+        <div>
+            <div class="accordionBox">
+                <h3 class="accordionTrigger">Breakfast</h3>
+                <div class="accordionContainer">
+                        <p>
+                            Eggs Benedict
+                            <br>
+                            Smashed avocado on toast
+                            <br>
+                            Cheesy bacon and egg pizza
+                        </p>
+                </div>
+            </div>
+            <div class="accordionBox">
+                <h3 class="accordionTrigger">Lunch</h3>
+                <div class="accordionContainer">
+                        <p>
+                            Margharita Pizza
+                            <br>
+                            Salmon Miso Pizza
+                            <br>
+                            Burrata and Parma Ham pizza
+                        </p>
+                </div>
+            </div>
+            <div class="accordionBox">
+                <h3 class="accordionTrigger">Dinner</h3>
+                <div class="accordionContainer">
+                        <p>
+                            Meatlovers pizza
+                            <br>
+                            Veggie delight pizza
+                            <br>
+                            Seafood pizza
+                        </p>
+                </div>
+            </div>
+            <div class="accordionBox">
+                <h3 class="accordionTrigger">Desserts</h3>
+                <div class="accordionContainer">
+                        <p>
+                            Banana crumble pizza
+                            <br>
+                            Creme brulee
+                            <br>
+                            Homemade cheese board
+                        </p>
+                </div>
+            </div>
+            <div class="accordionBox">
+                <h3 class="accordionTrigger">Drinks</h3>
+                <div class="accordionContainer">
+                    <p>
+                        Sodas
+                        <br>
+                        Wine
+                        <br>
+                        Water
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p><strong>Note: </strong>Use the arrow keys on your keyboard to move all the elements!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+=============================================== L1 TASK 19 REFERENCES ==============================================================
+
+Image Sources:
+    * Our Story Image: by Cathal Mac an Bheatha on Unsplash https://unsplash.com/photos/CJAKsppS2co
+    * Our Food Image: by Ivan Torres on Unsplash https://unsplash.com/photos/MQUqbmszGGM
+    * Our People Image: by Petr Sevcovic on Unsplash https://unsplash.com/photos/e5Q5vWO55uU
+
+HTML Images:
+    * https://www.w3schools.com/html/html_images.asp
+
+Change background color with jQuery:
+    * https://stackoverflow.com/questions/18475579/change-background-color-using-jquery
+
+CSS Properties:
+    * https://www.w3schools.com/cssref/default.asp
+
+jQuery Selectors:
+    * https://www.w3schools.com/jquery/jquery_ref_selectors.asp
+    * https://api.jquery.com/category/selectors/
+
+jQuery Effects:
+    * https://www.w3schools.com/jquery/jquery_ref_effects.asp
+    * https://api.jquery.com/animate/
+
+jQuery - keypress() Method:
+    * https://www.w3schools.com/jquery/event_keypress.asp
+
+jQuery - css() Method
+    * https://www.w3schools.com/jquery/jquery_css.asp
+
+jquery - event.which:
+    * https://api.jquery.com/event.which/
+
+jQuery - animate Method:
+    * https://www.w3schools.com/jquery/eff_animate.asp
+
+How to create a simple accordion drop-down menu with jQuery:
+    * https://www.youtube.com/watch?v=jNnPkytqJfo
+    * https://www.w3schools.com/howto/howto_js_accordion.asp
+
+HTML Colour Codes:
+    * https://htmlcolorcodes.com/colors/
+
+jQuery Stop Animations:
+    * https://www.w3schools.com/jquery/jquery_stop.asp#:~:text=The%20jQuery%20stop()%20method%20is%20used%20to%20stop%20an,sliding%2C%20fading%20and%20custom%20animations.
+
+jQuery Toggle Method:
+    * https://www.w3schools.com/jquery/eff_toggle.asp
+    * https://stackoverflow.com/questions/2966314/how-to-override-jquerys-show-and-hide-functions
+    
+
+
+
+
+
+
+
+

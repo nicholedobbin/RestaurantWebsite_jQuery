@@ -1,0 +1,77 @@
+/* ==================================================== DESCRIPTION =================================================================
+
+This is the CSS styling file for 'restaurant.html'.
+
+====================================================================================================================================*/
+
+/* --------------- BODY --------------- */
+/* Styles font-family of all body elements. */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------------- RESTAURANT INFORMATION SECTION --------------- */
+
+/* Styles position and width of all img elements. */
+img {
+    position: relative;
+    left: 0;
+    top: 0;
+    width:50%;
+}
+
+/* Styles position, width and text-alignment of all <div> elements with class "restaurantDescription". */
+.restaurantDescription{
+    max-width: 80%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Styles position, width and text-alignment of all <div> elements with class "menuContainer". */
+.menuContainer{
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+
+/* --------------- ACCORDION BOX MENU SECTION --------------- */
+
+/* Styles all <div> elements with class "accordionBox" (i.e. styles each menu section's border, 
+padding, colour, background and margins). */
+.accordionBox{
+    border: 1px solid grey;
+    padding: 0 15px 1px;
+    background: #e1e1e1;
+    color: #332e2e;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+/* Changes the active <div .accordionBox>'s background to white. */
+.accordionBox.active{
+    background: #fff;
+}
+
+/* Styles all <div> elements with class "accordionBox" (i.e. styles each menu section's border, 
+padding, colour, background and margins). */
+.accordionTrigger{
+    padding: 15px 0px 15px 0;
+    margin: 0;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Sets display to none for all <div> elements with class "accordionContainer" (i.e. divs containing menu items). */
+.accordionContainer{
+    display: none;
+}
+
+
+
