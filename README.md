@@ -1,4 +1,5 @@
 # **Restaurant Website with jQuery**
+### **IFSL1T19 - Programming in JavaScript 4: jQuery**
 
 ## **Description**
 This is a simple, hypothetical restaurant's website that uses jQuery to create animations and effects.
@@ -16,8 +17,19 @@ The program uses jQuery commands and functions that:
 * uses a chained effect that allows users to slide all page elements around repeatedly while changing the background.
 * fades a picture in and out over a period of 3 seconds each when the respective buttons are clicked.
 * stops the animation of the above effect whilst in progress.
-<br>
-<br>
+
+<hr>
+
+## **Installation and Setup**
+1. Clone the repo and open with your preferred IDE (e.g. [VSCode](https://code.visualstudio.com/docs/setup/setup-overview)).
+2. In the IDE, open the restaurant.html file and click the 'run' button, or click 'Go Live' if using VSCode. This should open your browser automatically to your localhost port with '/restaurant.html' as the URL endpoint.
+
+<hr>
+
+## **How to Use**
+Once the html file is loaded in your browser, you can explore the page's jQuery functionality by clicking buttons, opening accordions and pressing arrow keys on your keyboard to move items around.
+
+<hr>
 
 
 ## **Credits & References** 
